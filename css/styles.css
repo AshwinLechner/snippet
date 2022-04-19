@@ -1,0 +1,148 @@
+@font-face {
+  font-family: lib;
+  src: url(../fonts/LiberationSans-Regular.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  color: white;
+}
+body #container {
+  font-family: lib;
+}
+body #container #nav #navbar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid white;
+  max-width: 65%;
+  padding: 0;
+  padding-bottom: 15px;
+  margin: 2% 20%;
+}
+body #container #nav #navbar .home {
+  flex: 0;
+}
+body #container #nav #navbar li {
+  flex: 1;
+  text-align: center;
+}
+body #container #nav #navbar li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+body #container #nav #navbar .buttons {
+  display: flex;
+  width: 23%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body #container #nav #navbar .buttons .btn {
+  flex: 1;
+  background-color: #008a0e;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 3%;
+  height: 75%;
+  width: 100%;
+}
+body #container #nav #navbar .buttons .btn-register {
+  margin-left: 5%;
+}
+body #container #nav #navbar .buttons .btn-register a {
+  text-decoration: none;
+  color: white;
+}
+body #container #main {
+  text-align: center;
+  font-size: 2.3rem;
+  margin: auto;
+  margin-top: 18%;
+  width: 45%;
+}
+body #container #main h1 {
+  margin-bottom: 10px;
+}
+body #container #main p {
+  margin: 15px 0;
+  font-size: 2rem;
+}
+body #container #main #search {
+  height: 40px;
+  width: 40%;
+  text-align: center;
+  border-radius: 15px;
+}
+body #container #footer {
+  z-index: 3;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 35px;
+  width: 100%;
+  padding-bottom: 15px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+body #container #options-bg {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  min-height: 95vh;
+  max-width: 50%;
+  opacity: 0.8;
+}
+body #container #options-bg #criteria {
+  display: flex;
+  flex-direction: column;
+  margin-top: 175px;
+  min-height: 80vh;
+  border-right: 1px solid white;
+}
+body #container #options-bg #criteria #search-options {
+  font-size: 1.5rem;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+  text-align: center;
+}
+body #container #options-bg #criteria #search-options li {
+  margin: 0 25px;
+  color: white;
+}
+body #container #options-bg #criteria #extra-options {
+  margin: 1% 25px;
+}
+body #container .section {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 75%;
+}
+body #container .section p {
+  margin-top: 3%;
+}
+body .contact-content {
+  margin: auto;
+  text-align: center;
+  max-width: 45%;
+}
+body #contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 45%;
+}
+body .register {
+  margin: auto;
+  max-width: 45%;
+}
+body .register .register-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 45%;
+}
