@@ -22,6 +22,7 @@
                 <input type="text" name="username">
                 <label for="password">Password</label>
                 <input type="password" name="password">
+                <input type="submit" name="submit" value="Submit">
             </form>
         </div>
         <?= include_once('includes/footer.php') ?>
