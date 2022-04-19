@@ -1,1 +1,1 @@
-# snippet
+# Eindproject PHP en Javascript 
