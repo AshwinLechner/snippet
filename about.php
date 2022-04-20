@@ -13,7 +13,7 @@
 
 <body>
     <div id="container">
-        <?= require_once('includes/navbar.php') ?>
+        <?php require_once('includes/navbar.php') ?>
         <div class="content">
             <div class="section">
                 <p>
@@ -37,7 +37,7 @@
                     numquam earum tenetur sunt aut!</p>
             </div>
         </div>
-        <?= include_once('includes/footer.php') ?>
+        <?php include_once('includes/footer.php') ?>
     </div>
 </body>
 

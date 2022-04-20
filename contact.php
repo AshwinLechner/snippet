@@ -12,7 +12,7 @@
 
 <body>
     <div id="container">
-        <?= require_once('includes/navbar.php') ?>
+        <?php require_once('includes/navbar.php') ?>
         <div class="contact-content">
             <h1>Conact us</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quam voluptatem aperiam
@@ -30,7 +30,7 @@
             <textarea name="text" cols="30" rows="10"></textarea>
             <input type="submit" value="Submit">
         </form>
-        <?= require_once('includes/footer.php') ?>
+        <?php require_once('includes/footer.php') ?>
     </div>
 
 

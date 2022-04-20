@@ -12,13 +12,13 @@
 
 <body>
     <div id="container">
-        <?= require_once('includes/navbar.php') ?>
+        <?php require_once('includes/navbar.php') ?>
         <div id="main">
             <h1>&#60;/&#62; Snippet</h1>
             <p>Save, search, share</p>
             <input type="text" name="search" id="search" placeholder="Search..." />
         </div>
-        <?= require_once('includes/footer.php') ?>
+        <?php require_once('includes/footer.php') ?>
     </div>
     </div>
 </body>

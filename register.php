@@ -13,7 +13,7 @@
 <body>
     <div id="container">
 
-        <?= include_once('includes/navbar.php') ?>
+        <?php include_once('includes/navbar.php') ?>
         <div class="register">
             <form class="register-form" action="" method="post">
                 <label for="email">E-mail</label>
@@ -25,7 +25,7 @@
                 <input type="submit" name="submit" value="Submit">
             </form>
         </div>
-        <?= include_once('includes/footer.php') ?>
+        <?php include_once('includes/footer.php') ?>
     </div>
 
 </body>

@@ -13,7 +13,7 @@
 <body>
 
     <div id="container">
-        <?= require_once('includes/navbar.php') ?>
+        <?php require_once('includes/navbar.php') ?>
         <div id="options-bg">
             <div id="criteria">
                 <ul id="search-options">
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <?= require_once('includes/footer.php') ?>
+        <?php require_once('includes/footer.php') ?>
     </div>
 </body>
 
