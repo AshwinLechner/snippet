@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet/less" type="text/css" href="css/styles.less" />
     <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
-    <title>Register</title>
+    <title>Register</titrfdle>
 </head>
 
 <body>

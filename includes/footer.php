@@ -1,4 +1,3 @@
-<?php
-echo '       <div id="footer">
-    <p>&copy; 2022 Tom Sliepen & Ashwin Lechner</p>
+<div id="footer">
+    <p>&copy; <?= date("Y") ?> Tom Sliepen & Ashwin Lechner</p>
 </div>';
