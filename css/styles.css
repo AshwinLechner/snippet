@@ -146,3 +146,12 @@ body .register .register-form {
   margin: auto;
   max-width: 45%;
 }
+body #snippet-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 45%;
+}
+body #snippet-form #editor {
+  display: none;
+}

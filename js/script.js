@@ -1,12 +1,26 @@
 $(document).ready(function () {
-  var lang = $("#language option:selected").val();
-  var editor = CodeMirror.fromTextArea(document.getElementById("editor"), {
+  let editor;
+  let lang = $("#language option:selected").text().toLowerCase();
+  editor = CodeMirror.fromTextArea(document.getElementById("editor"), {
     mode: lang,
     theme: "darcula",
     lineNumbers: true,
   });
+
   $("#language").on("change", function () {
-    if ($("#editor").length) {
+    let code = editor.getValue();
+    $(".CodeMirror").remove();
+    lang = $("#language option:selected").text().toLowerCase();
+
+    if (lang === "html") {
+      lang = "xml";
     }
+
+    editor = CodeMirror.fromTextArea(document.getElementById("editor"), {
+      mode: lang,
+      theme: "darcula",
+      lineNumbers: true,
+    });
+    editor.setValue(code);
   });
 });
