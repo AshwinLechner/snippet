@@ -39,6 +39,11 @@ body #container #nav #navbar .buttons {
   flex-direction: row;
   justify-content: space-around;
 }
+body #container #nav #navbar .buttons a {
+  text-decoration: none;
+  color: white;
+  margin-top: 5%;
+}
 body #container #nav #navbar .buttons .btn {
   flex: 1;
   background-color: #008a0e;
@@ -48,6 +53,7 @@ body #container #nav #navbar .buttons .btn {
   margin-top: 3%;
   height: 75%;
   width: 100%;
+  cursor: pointer;
 }
 body #container #nav #navbar .buttons .btn-register {
   margin-left: 5%;
@@ -55,6 +61,9 @@ body #container #nav #navbar .buttons .btn-register {
 body #container #nav #navbar .buttons .btn-register a {
   text-decoration: none;
   color: white;
+}
+body #container #nav .login-form {
+  display: none;
 }
 body #container #main {
   text-align: center;

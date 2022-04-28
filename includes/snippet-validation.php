@@ -1,22 +1,10 @@
 <?php
+require_once 'functions.php';
+require_once 'dbconnect.php';
 
 
-
-function test_input($data)
-{
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-}
 if (isset($_POST['submit'])) {
-    try {
-        $pdo = new PDO('mysql:host=localhost;dbname=reacoys29_snippet', 'root', 'usbw');
-        // set the PDO error mode to exception
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    } catch (PDOException $e) {
-        echo "Connection failed: " . $e->getMessage();
-    }
+    $pdo = openDbConnection();
 
     if (empty($_POST["title"])) {
         $titleErr = "Title is required";
@@ -39,7 +27,7 @@ if (isset($_POST['submit'])) {
     $language = test_input($_POST["language"]);
     if (empty($titleErr) && empty($codeErr)) {
         $stmt  = $pdo->prepare("INSERT INTO snippets (author, language, visibility, title, description, code) VALUES (?,?,?,?,?,?)");
-        $stmt->execute([2, $language, $visibility, $title, $description, $code]);
+        $stmt->execute([$_SESSION['user'], $language, $visibility, $title, $description, $code]);
         echo 'Aantal toegevoegde klanten: ' . $resultaat;
     }
 }

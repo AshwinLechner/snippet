@@ -1,0 +1,4 @@
+Connection failed: SQLSTATE[HY000] [1045] Access denied for user 'rot'@'localhost' (using password: YES)
+Connection failed: SQLSTATE[HY000] [1045] Access denied for user 'rot'@'localhost' (using password: YES)
+Connection failed: SQLSTATE[HY000] [1045] Access denied for user 'rot'@'localhost' (using password: YES)
+Connection failed: SQLSTATE[HY000] [1045] Access denied for user 'rot'@'localhost' (using password: YES)

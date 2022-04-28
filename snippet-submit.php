@@ -25,7 +25,7 @@ function inclCM(text) {
     <script src="js/codemirror-5.65.2/mode/php/php.js"></script>
     <script src="js/codemirror-5.65.2/mode/css/css.js"></script>
     <script src="js/codemirror-5.65.2/mode/clike/clike.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/snippet-submit.js"></script>
     <!-- <script id="selected" src="" defer></script> -->
     <title>Snippet</title>
 </head>
