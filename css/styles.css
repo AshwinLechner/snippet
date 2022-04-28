@@ -155,3 +155,14 @@ body #snippet-form {
 body #snippet-form #editor {
   display: none;
 }
+body #user-profile-main {
+  margin: auto;
+  text-align: center;
+}
+body #user-profile-main a {
+  text-decoration: none;
+  color: white;
+}
+body #user-profile-main .edit-password {
+  display: none;
+}
