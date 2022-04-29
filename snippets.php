@@ -10,6 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/script.js" defer></script>
+    <script src="js/snippet.js" defer></script>
     <title>Snippet</title>
 </head>
 
@@ -37,8 +38,13 @@
                 </div>
             </div>
         </div>
+        <div class="snippet-content">
+
+        </div>
+        <div id="demo"></div>
         <?php require_once('includes/footer.php') ?>
     </div>
+
 </body>
 
 </html>

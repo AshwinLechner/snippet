@@ -1,11 +1,3 @@
-<!-- <script>
-function inclCM(text) {
-    $('head').append(`<script src="js/codemirror-5.65.2/mode/${text}/${text}.js">
-</script>`);
-}
-
-</script> -->
-
 <!DOCTYPE html>
 <html lang="en">
 
