@@ -134,6 +134,21 @@ body #container .section {
 body #container .section p {
   margin-top: 3%;
 }
+body #container #snippets {
+  margin: 5% 0% 20% 35%;
+  max-width: 35%;
+  max-height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+body #container #snippets .snippet {
+  flex: 1;
+  margin-bottom: 15%;
+}
+body #container #snippets .snippet .title-date {
+  display: flex;
+  justify-content: space-between;
+}
 body .contact-content {
   margin: auto;
   text-align: center;

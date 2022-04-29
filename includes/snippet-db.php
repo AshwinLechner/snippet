@@ -9,7 +9,5 @@ $request  = $pdo->prepare("SELECT language, title, description, code, author, da
 $request->execute();
 $snippets = $request->fetchAll(PDO::FETCH_ASSOC);
 $pdo = NULL;
-// foreach ($snippets as $snippet) {
-//     echo $snippet['title'] . '<br>';
-// }
+
 echo json_encode($snippets);
